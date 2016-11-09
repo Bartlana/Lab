@@ -18,10 +18,7 @@ using namespace std;
 			result=-p(n-1,sin(x))*cos(x)/n+(n-1)/n*Integrate(n-2,x);
 			cout<<"n="<<n<<" "<<result<<endl;
 			
-			return result; 
-		 
-	
-	
+			return result;
 	}
 	
 	}
